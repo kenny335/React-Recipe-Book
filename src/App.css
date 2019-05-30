@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+  min-height : 100vh
+
+}
+
+.form__button {
+  border: red 2px solid;
+  width:140px;
+  text-transform:uppercase;
+  height:40px
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.viewRecipeButton {
+  margin-bottom: 90px
+}
+
+.form__input {
+  height:40px;
+  width:150px
+}
+
+.recipeImage {
+  height:400px;
+  width:700px;
+  margin-left: 220px
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: antiquewhite
+}
+
+.active-recipe {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.active-image {
+  height:600px;
+  width:900px;
+  border: black 3px solid
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
